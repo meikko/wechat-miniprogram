@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/mypage/mypage",
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room"    
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "Junh QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/mypage/mypage",
+        "iconPath": "images/xunzhang.png",
+        "selectedIconPath": "images/xunzhang.png",
+        "text": "我的"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/biaoqing.png",
+        "selectedIconPath": "images/biaoqing.png",
+        "text": "初始化首页"
+      },
+      {
+        "pagePath": "pages/im/im",
+        "iconPath": "images/feiji.png",
+        "selectedIconPath": "images/feiji.png",
+        "text": "后台接口"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
